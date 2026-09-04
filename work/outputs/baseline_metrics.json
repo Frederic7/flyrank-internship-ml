@@ -1,0 +1,10 @@
+{
+  "rule_name": "stale_visible_page",
+  "score_formula": "stale(days>=90) * visible(imp>=500) * impressions_90d",
+  "qualifying_rows": 6575,
+  "total_rows": 30000,
+  "base_rate": 0.5421,
+  "precision_at_10": 0.6,
+  "precision_at_20": 0.45,
+  "precision_at_50": 0.44
+}
